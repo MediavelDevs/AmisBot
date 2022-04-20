@@ -1,0 +1,13 @@
+{
+  "name": "AmisBot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "node main.js"
+  },
+  "dependencies": {
+    "discord.js": "^13.6.0",
+    "quick.db": "^7.1.3"
+  }
+}
