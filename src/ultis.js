@@ -1,4 +1,9 @@
-module.exports = function Embad({color, title, description, thumb, filds, img, footer}) {
+module.exports = {
+  embad,
+  random
+}
+
+function embad({color, title, description, thumb, filds, img, footer}) {
   const { MessageEmbed } = require('discord.js');
   const Embed = new MessageEmbed()
 	if (color) Embed.setColor(color)
@@ -10,4 +15,10 @@ module.exports = function Embad({color, title, description, thumb, filds, img, f
 	.setTimestamp()
 	if (footer) Embed.setFooter(footer);
   return Embed
+}
+
+function random(min, max) {
+  min = Math.ceil(min);
+  max = Math.floor(max);
+  return Math.floor(Math.random() * (max - min) + min); //The maximum is exclusive and the minimum is inclusive
 }

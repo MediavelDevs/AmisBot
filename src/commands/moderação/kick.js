@@ -1,12 +1,10 @@
 const Command = require('../../structures/Command')
 
-const { MessageEmbed, MessageActionRow, MessageSelectMenu } = require('discord.js')
-
 module.exports = class extends Command {
     constructor(client) {
         super(client, {
             name: 'expulsar',
-            description: 'Expulsa um usuário do servidor.',
+            description: '[💂 Moderação] Expulsa um usuário do servidor.',
             options: [
                 {
                     name: 'usuário',

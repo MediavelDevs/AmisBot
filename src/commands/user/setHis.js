@@ -1,12 +1,13 @@
 const Command = require('../../structures/Command')
-const embad = require('../../functions/Embad')
+
+const { embad } = require('../../ultis')
 const db = require('quick.db');
 
 module.exports = class extends Command {
     constructor(client) {
         super(client, {
             name: 'sethis',
-            description: 'Voce coloca sua historia no perfil!.',
+            description: '[😉 Usuario] Voce coloca sua historia no perfil!.',
             options: [
               {
                 name: 'historia',

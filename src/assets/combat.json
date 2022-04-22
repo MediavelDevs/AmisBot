@@ -1,0 +1,61 @@
+{
+  "mobs":[
+    {
+      "name":"Esqueleto",
+      "velocidade":10,
+      "dano":50,
+      "vida":20,
+      "defesa":0,
+      "drop":10
+    },
+    {
+      "name":"Minotauro",
+      "velocidade":10,
+      "dano":70,
+      "vida":45,
+      "defesa":1,
+      "drop":30
+    },
+    {
+      "name":"Pigman",
+      "velocidade":50,
+      "dano":60,
+      "vida":50,
+      "defesa":4,
+      "drop":50
+    }
+  ],
+  "win":[
+    {
+      "type":"Armamento",
+      "name":"Caco de vidro",
+      "velocidade":0.5,
+      "valor":0.5,
+      "dano":4
+    },
+    {
+      "type":"Proteção",
+      "name":"escudo de madeira",
+      "velocidade":0.5,
+      "valor":1,
+      "proteção":1
+    },
+    {
+      "type":"Armamento",
+      "name":"Espada sem fio",
+      "velocidade":3,
+      "valor":1,
+      "dano":3
+    },
+    {
+      "type":"Decoração",
+      "name":"Estrela do Explorador!",
+      "valor":10
+    },
+    {
+      "type":"Dinheiro",
+      "name":"Saco de ouro!",
+      "valor":50
+    }
+  ]
+}
