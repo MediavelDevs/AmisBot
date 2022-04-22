@@ -1,0 +1,1 @@
+ok: node main.js
